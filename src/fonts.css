@@ -1,0 +1,25 @@
+@layer base {
+  @font-face {
+    font-family: 'Graphik-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./fonts/Graphik-Medium.ttf) format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Graphik-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Graphik-Regular.ttf) format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Roboto-Regular.ttf) format('ttf');
+  }
+}
