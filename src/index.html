@@ -8,22 +8,146 @@
   <link rel="stylesheet" href="./output.css">
 </head>
 
-<body class="mx-auto w-full">
-  <header class="bg-black">
-    <div class="px-[25px] py-[25px] text-white flex justify-between items-center sm:justify-center sm:gap-[116px]">
-      <img src="./images/logo.png" alt="Figma Land" class="w-[186px] h-[58px]">
+<body class="font-['Graphik-Regular'] bg-black text-white">
+  <header>
+    <div class="container px-[25px] py-[25px] flex gap-2 justify-between items-center sm:justify-around">
+      <img src="./images/logo.png" alt="Figma Land" class="w-[186px] h-[58px] object-contain">
       <nav class="hidden sm:block">
-        <ul class="flex gap-2">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="flex gap-10 font-['Graphik-Medium'] text-[16px] tracking-[0.2px]">
+          <li class="py-px-[10px]"><a href="#">Home</a></li>
+          <li class="py-px-[10px]"><a href="#">Product</a></li>
+          <li class="py-px-[10px]"><a href="#">About</a></li>
+          <li class="py-px-[10px]"><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <a href="#"><button>Login</button></a>
+      <a href="#"><button class="px-[36px] py-[10px] font-['Graphik-Medium'] text-[17px] tracking-[0.2px] border-[1px] border-['#FFF']
+          shadow-[0px_4px_31px_0px_rgba(0, 0, 0, 0.15)];">Login</button></a>
+      <img src="./images/Hamburger.svg" alt="Hamburger" class="hover:cursor-pointer sm:hidden">
     </div>
 
   </header>
+
+  <section>
+    <div class="max-w-[402px] container flex flex-col items-center sm:max-w-[709px]">
+      <h1
+        class="mt-[57px] text-center text-[52px] leading-[62px] tracking-[0.2px] sm:max-w-[709px] sm:font-['Graphik-Medium'] sm:text-[80px] sm:leading-[88px] sm:tracking-[0.2px]">
+        Work at the
+        speed of
+        thought.</h1>
+      <p class="mt-[17px] text-center text-[20px] leading-[30px] tracking-[0.2px]">Most calendars are designed for
+        teams.
+        Slate is designed for freelancers who
+        want a simple way to plan
+        their schedule.</p>
+      <div
+        class="mb-[57px] mt-[85px] flex flex-col gap-[21px] items-center sm:flex-row sm:gap-[35px] sm:items-baseline sm:justify-center">
+        <a href="#" class="block"><button class="font-['Graphik-Medium'] bg-[#4452FE] text-[17px] tracking-[0.2px]
+            capitalize px-[30px] py-[10px]">Try
+            for
+            free</button></a>
+        <a href="#" class="block"><button class="font-['Graphik-Medium'] border border-white text-[17px] tracking-[0.2px]
+            capitalize px-[30px] py-[10px]">Learn
+            more</button></a>
+      </div>
+    </div>
+
+    <div class="relative mt-[120px] h-[841px]">
+      <img src="./images/dashboard.jpg" alt="Dashboard" class="absolute top-0 left-[50%] translate-x-[-50%] 
+              w-[244.817px] h-[225.985] sm:w-[465.817px] sm:h-[429.985px] rotate-[-45deg]">
+      <img src="./images/board.jpg" alt="Boards" class="absolute top-[255px] left-[14%] sm:top-[340px]
+        w-[244.817px] h-[225.985] sm:w-[465.817px] sm:h-[429.985px] rotate-[45deg]">
+      <img src="./images/chat_bot.jpg" alt="Chat bot" class="absolute top-[255px] right-[12%] sm:top-[320px]
+        w-[244.817px] h-[225.985] sm:w-[465.817px] sm:h-[429.985px] rotate-[45deg]">
+    </div>
+  </section>
+
+  <section class="mt-[100px]">
+    <div class="container pt-[62px] flex flex-col items-center">
+      <h2 class="uppercase">Features</h2>
+      <p class="pt-[27px] max-w-[582px] text-center mb-[80.5px]">Most calendars are designed for teams. Slate is
+        designed for
+        freelancers who want a simple way to plan their schedule.</p>
+
+      <div>
+        <div>
+          <img src="./images/chat_bot.jpg" alt="Chat bot" class="w-[324px] h-[319px] sm:w-[696px] sm:h-[659px]">
+          <img src="./images/Line Chart 1.png" alt="Line chart" class="w-[232px] h-[160px] sm:w-[400px] sm:h-[276px]">
+        </div>
+
+        <div>
+          <article>
+            <div class="flex gap-x-[10px] items-center">
+              <img src="./images/Vector1.svg" alt="A single source
+                of truth">
+              <h3>A single source
+                of truth</h3>
+            </div>
+            <p>When you add work to your
+              Slate calendar we automatically
+              calculate useful insights
+            </p>
+          </article>
+
+          <article>
+            <div class="flex gap-x-[10px] items-center">
+              <img src="./images/Vector2.svg" alt="Intuitive
+                interface">
+              <h3>Intuitive
+                interface</h3>
+            </div>
+            <p>When you add work to your
+              Slate calendar we automatically
+              calculate useful insights
+            </p>
+          </article>
+
+          <article>
+            <div class="flex gap-x-[10px] items-center">
+              <img src="./images/Vector3.svg" alt="Rules">
+              <h3>Or with rules</h3>
+            </div>
+            <p>When you add work to your
+              Slate calendar we automatically
+              calculate useful insights
+            </p>
+          </article>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="mt-[100px] mb-[100px]">
+    <div class="container flex flex-col items-center">
+      <h2 class="uppercase">Contents</h2>
+      <p>We focus on ergonomics and
+        meeting you where you work.
+        It's only a keystroke away.</p>
+
+      <div class="mt-[46px] flex flex-col items-center gap-[33px] sm:flex-row sm:justify-center">
+        <article class="w-[476px] h-[620px] bg-white text-black flex flex-col items-center justify-center">
+          <h3>Work</h3>
+          <p>Ever wondered if you're too reliant
+            on a client for work? Slate helps
+            you identify.</p>
+          <a href="#"><button class="capitalize">Sign up</button></a>
+          <img src="./images/Macbook Pro.png" alt="Macbook">
+        </article>
+
+        <article class="w-[476px] h-[620px] bg-white text-black flex flex-col items-center justify-center">
+          <h3>Design with real data</h3>
+          <p>Ever wondered if you're too reliant
+            on a client for work? Slate helps
+            you identify .</p>
+          <a href="#"><button class="capitalize">Try for free</button></a>
+          <img src="./images/boards-notification.jpg" alt="Board notifications">
+        </article>
+      </div>
+
+    </div>
+  </section>
+
 </body>
 
 </html>

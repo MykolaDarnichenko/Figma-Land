@@ -556,6 +556,8 @@ video {
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 549px) {
@@ -600,9 +602,68 @@ video {
   }
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-\[14\%\] {
+  left: 14%;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.right-\[12\%\] {
+  right: 12%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-\[255px\] {
+  top: 255px;
+}
+
+.mb-\[57px\] {
+  margin-bottom: 57px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[120px\] {
+  margin-top: 120px;
+}
+
+.mt-\[17px\] {
+  margin-top: 17px;
+}
+
+.mt-\[57px\] {
+  margin-top: 57px;
+}
+
+.mt-\[85px\] {
+  margin-top: 85px;
+}
+
+.mb-\[80\.5px\] {
+  margin-bottom: 80.5px;
+}
+
+.mt-\[46px\] {
+  margin-top: 46px;
+}
+
+.mb-\[100px\] {
+  margin-bottom: 100px;
 }
 
 .block {
@@ -617,44 +678,151 @@ video {
   display: none;
 }
 
+.h-\[225\.985\] {
+  height: 225.985;
+}
+
 .h-\[58px\] {
   height: 58px;
 }
 
-.w-full {
-  width: 100%;
+.h-\[993px\] {
+  height: 993px;
+}
+
+.h-\[893px\] {
+  height: 893px;
+}
+
+.h-\[841px\] {
+  height: 841px;
+}
+
+.h-\[891px\] {
+  height: 891px;
+}
+
+.h-\[941px\] {
+  height: 941px;
+}
+
+.h-\[319px\] {
+  height: 319px;
+}
+
+.h-\[160px\] {
+  height: 160px;
+}
+
+.h-\[620px\] {
+  height: 620px;
 }
 
 .w-\[186px\] {
   width: 186px;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
+.w-\[244\.817px\] {
+  width: 244.817px;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
+.w-\[324px\] {
+  width: 324px;
 }
 
-.max-w-\[4xl\] {
-  max-width: 4xl;
+.w-\[232px\] {
+  width: 232px;
 }
 
-.max-w-\[\'4xl\'\] {
-  max-width: '4xl';
+.w-\[476px\] {
+  width: 476px;
+}
+
+.max-w-\[402px\] {
+  max-width: 402px;
+}
+
+.max-w-\[582px\] {
+  max-width: 582px;
+}
+
+.translate-x-\[-50\%\] {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[-45deg\] {
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[45deg\] {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-\[21px\] {
+  gap: 21px;
+}
+
+.gap-\[33px\] {
+  gap: 33px;
+}
+
+.gap-x-\[3px\] {
+  -moz-column-gap: 3px;
+       column-gap: 3px;
+}
+
+.gap-x-\[10px\] {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-\[\'\#FFF\'\] {
+  border-color: '#FFF';
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-\[\#4452FE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 82 254 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -662,9 +830,34 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .px-\[25px\] {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-\[36px\] {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .py-\[25px\] {
@@ -672,19 +865,89 @@ video {
   padding-bottom: 25px;
 }
 
+.pt-\[62px\] {
+  padding-top: 62px;
+}
+
+.pt-\[27px\] {
+  padding-top: 27px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-\[\'Graphik-Medium\'\] {
+  font-family: 'Graphik-Medium';
+}
+
+.font-\[\'Graphik-Regular\'\] {
+  font-family: 'Graphik-Regular';
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[52px\] {
+  font-size: 52px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[62px\] {
+  line-height: 62px;
+}
+
+.tracking-\[0\.2px\] {
+  letter-spacing: 0.2px;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 
 @media (min-width: 549px) {
-  .sm\:visible {
-    visibility: visible;
+  .sm\:top-\[320px\] {
+    top: 320px;
+  }
+
+  .sm\:top-\[340px\] {
+    top: 340px;
   }
 
   .sm\:block {
@@ -695,23 +958,71 @@ video {
     display: none;
   }
 
+  .sm\:h-\[429\.985px\] {
+    height: 429.985px;
+  }
+
+  .sm\:h-\[659px\] {
+    height: 659px;
+  }
+
+  .sm\:h-\[276px\] {
+    height: 276px;
+  }
+
+  .sm\:w-\[465\.817px\] {
+    width: 465.817px;
+  }
+
+  .sm\:w-\[696px\] {
+    width: 696px;
+  }
+
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .sm\:max-w-\[709px\] {
+    max-width: 709px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:items-baseline {
+    align-items: baseline;
+  }
+
   .sm\:justify-center {
     justify-content: center;
   }
 
-  .sm\:gap-\[116px\] {
-    gap: 116px;
+  .sm\:justify-around {
+    justify-content: space-around;
   }
-}
 
-@media (min-width: 768px) {
-  .md\:block {
-    display: block;
+  .sm\:gap-\[35px\] {
+    gap: 35px;
   }
-}
 
-@media (min-width: 1579px) {
-  .\32xl\:block {
-    display: block;
+  .sm\:font-\[\'Graphik-Medium\'\] {
+    font-family: 'Graphik-Medium';
+  }
+
+  .sm\:text-\[80px\] {
+    font-size: 80px;
+  }
+
+  .sm\:leading-\[88px\] {
+    line-height: 88px;
+  }
+
+  .sm\:tracking-\[0\.2px\] {
+    letter-spacing: 0.2px;
   }
 }
