@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: ['Graphik-Regular', 'sans-serif'],
+        second: ['Graphik-Medium', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      }
+    },
     container: {
       center: true,
     },
