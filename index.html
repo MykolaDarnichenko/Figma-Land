@@ -8,21 +8,21 @@
   <link rel="stylesheet" href="./src/output.css">
 </head>
 
-<body class="font-['Graphik-Regular'] bg-black text-white">
+<body class="font-['Graphik-Regular'] bg-black text-white tracking-[0.2px]">
   <header>
     <div class="container px-[25px] py-[25px] flex gap-2 justify-between items-center sm:justify-around">
       <img src="./src/images/logo.png" alt="Figma Land" class="w-[186px] h-[58px] object-contain">
       <nav class="hidden sm:block">
-        <ul class="flex gap-10 font-['Graphik-Medium'] text-[16px] tracking-[0.2px]">
+        <ul class="flex gap-10 font-['Graphik-Medium'] text-[16px]">
           <li class="py-px-[10px]"><a href="#">Home</a></li>
           <li class="py-px-[10px]"><a href="#">Product</a></li>
           <li class="py-px-[10px]"><a href="#">About</a></li>
           <li class="py-px-[10px]"><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <a href="#"><button class="px-[36px] py-[10px] font-['Graphik-Medium'] text-[17px] tracking-[0.2px] border-[1px] border-['#FFF']
+      <a href="#"><button class="px-[36px] py-[10px] font-['Graphik-Medium'] text-[17px] border-[1px] border-['#FFF']
           shadow-[0px_4px_31px_0px_rgba(0, 0, 0, 0.15)];">Login</button></a>
-      <img src="./srs/images/Hamburger.svg" alt="Hamburger" class="hover:cursor-pointer sm:hidden">
+      <img src="./src/images/Hamburger.svg" alt="Hamburger" class="hover:cursor-pointer sm:hidden">
     </div>
 
   </header>
@@ -30,22 +30,22 @@
   <section>
     <div class="max-w-[402px] container flex flex-col items-center sm:max-w-[709px]">
       <h1
-        class="mt-[57px] text-center text-[52px] leading-[62px] tracking-[0.2px] sm:max-w-[709px] sm:font-['Graphik-Medium'] sm:text-[80px] sm:leading-[88px] sm:tracking-[0.2px]">
+        class="mt-[57px] text-center text-[52px] leading-[62px] sm:max-w-[709px] sm:font-['Graphik-Medium'] sm:text-[80px] sm:leading-[88px]">
         Work at the
         speed of
         thought.</h1>
-      <p class="mt-[17px] text-center text-[20px] leading-[30px] tracking-[0.2px]">Most calendars are designed for
+      <p class="mt-[17px] text-center text-[20px] leading-[30px]">Most calendars are designed for
         teams.
         Slate is designed for freelancers who
         want a simple way to plan
         their schedule.</p>
       <div
         class="mb-[57px] mt-[85px] flex flex-col gap-[21px] items-center sm:flex-row sm:gap-[35px] sm:items-baseline sm:justify-center">
-        <a href="#" class="block"><button class="font-['Graphik-Medium'] bg-[#4452FE] text-[17px] tracking-[0.2px]
+        <a href="#" class="block"><button class="font-['Graphik-Medium'] bg-[#4452FE] text-[17px]
             capitalize px-[30px] py-[10px]">Try
             for
             free</button></a>
-        <a href="#" class="block"><button class="font-['Graphik-Medium'] border border-white text-[17px] tracking-[0.2px]
+        <a href="#" class="block"><button class="font-['Graphik-Medium'] border border-white text-[17px]
             capitalize px-[30px] py-[10px]">Learn
             more</button></a>
       </div>
@@ -63,51 +63,57 @@
 
   <section class="mt-[100px]">
     <div class="container pt-[62px] flex flex-col items-center">
-      <h2 class="uppercase">Features</h2>
-      <p class="pt-[27px] max-w-[582px] text-center mb-[80.5px]">Most calendars are designed for teams. Slate is
+      <h2 class="uppercase text-[52px] leading-[62px]">Features</h2>
+      <p class="pt-[27px] max-w-[411px] sm:max-w-[582px] text-center mb-[80.5px]
+              text-[20px] leading-[30px]">Most calendars are designed for teams.
+        Slate
+        is
         designed for
         freelancers who want a simple way to plan their schedule.</p>
 
-      <div>
-        <div>
-          <img src="./src/images/chat_bot.jpg" alt="Chat bot" class="w-[324px] h-[319px] sm:w-[696px] sm:h-[659px]">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-center sm:gap-[75px]">
+        <div class="relative mb-[152px] flex justify-center">
+          <img src="./src/images/chat_bot.jpg" alt="Chat bot"
+            class="w-[324px] h-[319px] sm:w-[696px] sm:h-[659px] object-contain">
           <img src="./src/images/Line Chart 1.png" alt="Line chart"
-            class="w-[232px] h-[160px] sm:w-[400px] sm:h-[276px]">
+            class="absolute bottom-[-70px] right-[50%] translate-x-[50%] w-[232px] h-[160px] sm:w-[300px] sm:h-[276px] md:w-[400px] object-contain sm:translate-x-0 sm:bottom-[8%] md:bottom-[-5%] lg:bottom-[-15%] sm:right-[-10%]">
         </div>
 
-        <div>
-          <article>
+        <div class="flex flex-col items-center gap-[35px]">
+          <article class="max-w-[249px]">
             <div class="flex gap-x-[10px] items-center">
               <img src="./src/images/Vector1.svg" alt="A single source
                 of truth">
-              <h3>A single source
+              <h3 class="font-['Graphik-Medium'] text-[20px] leading-[30px] tracking-[0.1px] px-py-[10px]">A single
+                source
                 of truth</h3>
             </div>
-            <p>When you add work to your
+            <p class="pt-[10px] px-py-[10px] text-[16px] leading-[24px]">When you add work to your
               Slate calendar we automatically
               calculate useful insights
             </p>
           </article>
 
-          <article>
+          <article class="max-w-[249px]">
             <div class="flex gap-x-[10px] items-center">
               <img src="./src/images/Vector2.svg" alt="Intuitive
                 interface">
-              <h3>Intuitive
+              <h3 class="font-['Graphik-Medium'] text-[20px] leading-[30px] tracking-[0.1px] px-py-[10px]">Intuitive
                 interface</h3>
             </div>
-            <p>When you add work to your
+            <p class="pt-[10px] px-py-[10px] text-[16px] leading-[24px]">When you add work to your
               Slate calendar we automatically
               calculate useful insights
             </p>
           </article>
 
-          <article>
+          <article class="max-w-[249px]">
             <div class="flex gap-x-[10px] items-center">
               <img src="./src/images/Vector3.svg" alt="Rules">
-              <h3>Or with rules</h3>
+              <h3 class="font-['Graphik-Medium'] text-[20px] leading-[30px] tracking-[0.1px] px-py-[10px]">Or with rules
+              </h3>
             </div>
-            <p>When you add work to your
+            <p class="pt-[10px] px-py-[10px] text-[16px] leading-[24px]">When you add work to your
               Slate calendar we automatically
               calculate useful insights
             </p>
