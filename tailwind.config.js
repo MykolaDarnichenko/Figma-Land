@@ -7,7 +7,13 @@ module.exports = {
         primary: ['Graphik-Regular', 'sans-serif'],
         second: ['Graphik-Medium', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
-      }
+      },
+      backgroundImage: {
+        'avatar1': "url('/src/images/Avatar1.png')",
+        'avatar2': "url('/src/images/avatar2.png')",
+        'avatar3': "url('/src/images/avatar3.png')",
+        'avatar4': "url('/src/images/avatar4.png')",
+       }
     },
     container: {
       center: true,
