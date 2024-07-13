@@ -831,14 +831,6 @@ video {
   margin-top: 85px;
 }
 
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
-.mt-\[500px\] {
-  margin-top: 500px;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1644,6 +1636,10 @@ video {
   gap: 21px;
 }
 
+.gap-\[23px\] {
+  gap: 23px;
+}
+
 .gap-\[30px\] {
   gap: 30px;
 }
@@ -1662,10 +1658,6 @@ video {
 
 .gap-\[57px\] {
   gap: 57px;
-}
-
-.gap-\[23px\] {
-  gap: 23px;
 }
 
 .gap-x-\[10px\] {
@@ -2142,14 +2134,14 @@ video {
   border-style: none;
 }
 
+.border-\[\#565656\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(86 86 86 / var(--tw-border-opacity));
+}
+
 .border-\[\#D3D3D3\] {
   --tw-border-opacity: 1;
   border-color: rgb(211 211 211 / var(--tw-border-opacity));
-}
-
-.border-\[\#DEDEDE\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(222 222 222 / var(--tw-border-opacity));
 }
 
 .border-\[\'\#FFF\'\] {
@@ -2159,11 +2151,6 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-\[\#565656\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(86 86 86 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4452FE\] {
@@ -2187,19 +2174,19 @@ video {
 }
 
 .bg-avatar1 {
-  background-image: url('/src/images/Avatar1.png');
+  background-image: url('./src/images/Avatar1.png');
 }
 
 .bg-avatar2 {
-  background-image: url('/src/images/avatar2.png');
+  background-image: url('./src/images/avatar2.png');
 }
 
 .bg-avatar3 {
-  background-image: url('/src/images/avatar3.png');
+  background-image: url('./src/images/avatar3.png');
 }
 
 .bg-avatar4 {
-  background-image: url('/src/images/avatar4.png');
+  background-image: url('./src/images/avatar4.png');
 }
 
 .decoration-slice {
@@ -2316,12 +2303,17 @@ video {
      object-fit: scale-down;
 }
 
+.p-\[10px\] {
+  padding: 10px;
+}
+
 .p-\[40px\] {
   padding: 40px;
 }
 
-.p-\[10px\] {
-  padding: 10px;
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .px-\[25px\] {
@@ -2357,16 +2349,6 @@ video {
 .py-\[40px\] {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-.px-\[40px\] {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.px-\[10px\] {
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .pt-\[10px\] {
@@ -2445,12 +2427,12 @@ video {
   font-family: Graphik-Regular, sans-serif;
 }
 
-.font-second {
-  font-family: Graphik-Medium, sans-serif;
-}
-
 .font-roboto {
   font-family: Roboto, sans-serif;
+}
+
+.font-second {
+  font-family: Graphik-Medium, sans-serif;
 }
 
 .text-\[16px\] {
