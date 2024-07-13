@@ -767,6 +767,11 @@ video {
   margin-bottom: 50px;
 }
 
+.mx-\[20px\] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .mb-\[152px\] {
   margin-bottom: 152px;
 }
@@ -811,6 +816,10 @@ video {
   margin-top: 17px;
 }
 
+.mt-\[180px\] {
+  margin-top: 180px;
+}
+
 .mt-\[200px\] {
   margin-top: 200px;
 }
@@ -829,6 +838,34 @@ video {
 
 .mt-\[85px\] {
   margin-top: 85px;
+}
+
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mt-\[104px\] {
+  margin-top: 104px;
+}
+
+.mb-\[55px\] {
+  margin-bottom: 55px;
+}
+
+.mt-\[101px\] {
+  margin-top: 101px;
+}
+
+.mb-\[101px\] {
+  margin-bottom: 101px;
 }
 
 .box-border {
@@ -974,6 +1011,31 @@ video {
   height: 841px;
 }
 
+.h-\[370px\] {
+  height: 370px;
+}
+
+.h-\[453px\] {
+  height: 453px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[473px\] {
+  height: 473px;
+}
+
+.max-h-\[370px\] {
+  max-height: 370px;
+}
+
 .w-\[186px\] {
   width: 186px;
 }
@@ -1034,6 +1096,14 @@ video {
   width: weird-and-invalid;
 }
 
+.w-\[585px\] {
+  width: 585px;
+}
+
+.w-\[541px\] {
+  width: 541px;
+}
+
 .max-w-\[249px\] {
   max-width: 249px;
 }
@@ -1076,6 +1146,22 @@ video {
 
 .max-w-\[411px\] {
   max-width: 411px;
+}
+
+.max-w-\[479px\] {
+  max-width: 479px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[1219px\] {
+  max-width: 1219px;
+}
+
+.max-w-\[585px\] {
+  max-width: 585px;
 }
 
 .flex-shrink {
@@ -1660,6 +1746,14 @@ video {
   gap: 57px;
 }
 
+.gap-\[86px\] {
+  gap: 86px;
+}
+
+.gap-\[37px\] {
+  gap: 37px;
+}
+
 .gap-x-\[10px\] {
   -moz-column-gap: 10px;
        column-gap: 10px;
@@ -2006,6 +2100,10 @@ video {
   border-radius: 50%;
 }
 
+.rounded-\[33px\] {
+  border-radius: 33px;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2074,6 +2172,18 @@ video {
 
 .border-\[1px\] {
   border-width: 1px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[5px\] {
+  border-width: 5px;
 }
 
 .border-x {
@@ -2153,6 +2263,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-red-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
 .bg-\[\#4452FE\] {
   --tw-bg-opacity: 1;
   background-color: rgb(68 82 254 / var(--tw-bg-opacity));
@@ -2173,6 +2288,15 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#343434\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 52 52 / var(--tw-bg-opacity));
+}
+
 .bg-avatar1 {
   background-image: url('../src/images/Avatar1.png');
 }
@@ -2187,6 +2311,18 @@ video {
 
 .bg-avatar4 {
   background-image: url('../src/images/avatar4.png');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/line-chart-1\.jpg\'\)\] {
+  background-image: url('../src/images/line-chart-1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/line-chart-1\.jpg\'\)_lightgray_4\.52px_77\.935px\/100\%_135\.898\%_no-repeat\] {
+  background-image: url('../src/images/line-chart-1.jpg') lightgray 4.52px 77.935px/100% 135.898% no-repeat;
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/line-chart-1\.jpg\'\)_red\] {
+  background-image: url('../src/images/line-chart-1.jpg') red;
 }
 
 .decoration-slice {
@@ -2211,6 +2347,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-fixed {
@@ -2351,6 +2491,21 @@ video {
   padding-bottom: 40px;
 }
 
+.px-\[65px\] {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.py-\[104px\] {
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.px-\[45px\] {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
 .pt-\[10px\] {
   padding-top: 10px;
 }
@@ -2361,6 +2516,14 @@ video {
 
 .pt-\[62px\] {
   padding-top: 62px;
+}
+
+.pl-\[94px\] {
+  padding-left: 94px;
+}
+
+.pt-\[20px\] {
+  padding-top: 20px;
 }
 
 .text-left {
@@ -3045,6 +3208,18 @@ video {
 
   .sm\:mt-\[160px\] {
     margin-top: 160px;
+  }
+
+  .sm\:mb-\[80px\] {
+    margin-bottom: 80px;
+  }
+
+  .sm\:mt-\[180px\] {
+    margin-top: 180px;
+  }
+
+  .sm\:mb-\[180px\] {
+    margin-bottom: 180px;
   }
 
   .sm\:block {
