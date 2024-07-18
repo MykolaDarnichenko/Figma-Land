@@ -31,7 +31,7 @@
 
   </header>
 
-  <section>
+  <section class="overflow-hidden">
     <div class="max-w-[402px] container flex flex-col items-center sm:max-w-[709px]">
       <h1
         class="mt-[57px] text-center text-[52px] leading-[62px] sm:max-w-[709px] sm:font-second sm:text-[80px] sm:leading-[88px] px-[10px]">
@@ -60,13 +60,15 @@
               w-[244.817px] h-[225.985] sm:w-[465.817px] sm:h-[429.985px] rotate-[-45deg]"> -->
       <div class="h-[28vw]">
         <img src="./src/images/dashboard.jpg" alt="Dashboard" class="absolute top-0 left-[50%] translate-x-[-50%] 
-                                            w-[33vw] h-[33vw] rotate-[-45deg]">
+                                            w-[54vw] h-[50vw] sm:w-[33vw] sm:h-[33vw] rotate-[-45deg]">
       </div>
-      <div class="h-[33vw] z-10 bg-gradient-to-b from-black/[.00] from-0% via-[#0E0E0E] via-66.15% ">
-        <img src="./src/images/board.jpg" alt="Boards" class="z-0 absolute top-[25vw] left-[9vw]
-                 w-[33vw] h-[33vw] rotate-[45deg]">
-        <img src="./src/images/chat_bot.jpg" alt="Chat bot" class="z-0 absolute top-[25vw] right-[9vw]
-                 w-[33vw] h-[33vw] rotate-[45deg]">
+      <!-- <div class="h-[33vw] z-10 bg-gradient-to-b from-black/[.00] from-0% via-[#0E0E0E] via-66.15%"> -->
+      <div
+        class="h-[80vw] sm:h-[40vw] after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:bg-gradient-to-b from-black/0 from-0% to-[#0E0E0E] to-[100%]">
+        <img src="./src/images/board.jpg" alt="Boards" class="-z-10 absolute top-[40vw] left-[-15vw] sm:top-[25vw] sm:left-[9vw]
+                 w-[54vw] h-[50vw] sm:w-[33vw] sm:h-[33vw] rotate-[45deg]">
+        <img src="./src/images/chat_bot.jpg" alt="Chat bot" class="-z-10 absolute top-[38vw] right-[-18vw] sm:top-[25vw] sm:right-[9vw]
+                 w-[54vw] h-[50vw] sm:w-[33vw] sm:h-[33vw] rotate-[45deg]">
       </div>
     </div>
   </section>
