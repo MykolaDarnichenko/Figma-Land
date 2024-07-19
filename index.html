@@ -11,10 +11,10 @@
 
 <body class="font-primary bg-black text-white tracking-[0.2px]">
   <header>
-    <div class="container px-[25px] py-[25px] flex gap-2 justify-between items-center sm:justify-around">
+    <div class="sticky top-0 py-[25px] px-[25px] flex justify-between items-center md:container xl:px-[12%]">
       <img src="./src/images/logo.png" alt="Figma Land"
         class="w-[156px] h-[28px] sm:w-[186px] sm:h-[58px] object-contain">
-      <nav class="hidden sm:block">
+      <nav class="hidden md:block">
         <ul class="flex gap-10 font-['Graphik-Medium'] text-[16px]">
           <li class="py-px-[10px]"><a href="#">Home</a></li>
           <li class="py-px-[10px]"><a href="#">Product</a></li>
@@ -25,14 +25,14 @@
       <div class="flex items-center gap-[16px]">
         <a href="#"><button class="px-[16px] py-[5px] sm:px-[36px] sm:py-[10px] font-second text-[17px] border-[1px] border-['#FFF']
           shadow-[0px_4px_31px_0px_rgba(0, 0, 0, 0.15)];">Login</button></a>
-        <img src="./src/images/Hamburger.svg" alt="Hamburger" class="hover:cursor-pointer w-[36px] h-[23px] sm:hidden">
+        <img src="./src/images/Hamburger.svg" alt="Hamburger" class="hover:cursor-pointer w-[36px] h-[23px] md:hidden">
       </div>
     </div>
 
   </header>
 
   <section class="overflow-hidden">
-    <div class="max-w-[402px] container flex flex-col items-center sm:max-w-[709px]">
+    <div class="container max-w-[402px] flex flex-col items-center sm:max-w-[709px]">
       <h1
         class="mt-[57px] text-center text-[52px] leading-[62px] sm:max-w-[709px] sm:font-second sm:text-[80px] sm:leading-[88px] px-[10px]">
         Work at the
@@ -83,11 +83,12 @@
         designed for
         freelancers who want a simple way to plan their schedule.</p>
 
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-center sm:gap-[75px]">
-        <div class="relative mb-[152px] flex justify-center">
+      <div
+        class="px-[20px] sm:px-[50px] md:px-[20px] flex flex-col md:flex-row md:items-center md:justify-center gap-[100px] md:gap-[75px]">
+        <div class="relative flex justify-center">
           <img src="./src/images/chat_bot.jpg" alt="Chat bot" class="w-[324px] h-[319px] sm:w-[696px] sm:h-[659px] object-contain
             shadow-[0px_4px_31px_0px_rgba(0, 0, 0, 0.15)]">
-          <img src="./src/images/Line Chart 1.png" alt="Line chart" class="absolute bottom-[-70px] right-[50%] translate-x-[50%] w-[232px] h-[160px] sm:w-[300px] sm:h-[276px] md:w-[400px] object-contain sm:translate-x-0 sm:bottom-[8%] md:bottom-[-5%] lg:bottom-[-15%] sm:right-[-10%]
+          <img src="./src/images/Line Chart 1.png" alt="Line chart" class="absolute bottom-[-70px] right-[50%] translate-x-[50%] w-[232px] h-[160px] sm:w-[300px] sm:h-[276px] md:w-[400px] object-contain sm:right-[-12%] sm:bottom-[-5%] sm:translate-x-0 md:bottom-[-5%] lg:bottom-[-15%]
             shadow-[0px_4px_31px_0px_rgba(0, 0, 0, 0.15)]">
         </div>
 
