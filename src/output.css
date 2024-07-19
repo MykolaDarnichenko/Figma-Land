@@ -872,6 +872,10 @@ video {
   margin-top: 85px;
 }
 
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1047,6 +1051,10 @@ video {
   height: 80vw;
 }
 
+.h-\[100\%\] {
+  height: 100%;
+}
+
 .max-h-\[370px\] {
   max-height: 370px;
 }
@@ -1131,6 +1139,10 @@ video {
   width: weird-and-invalid;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .max-w-\[1219px\] {
   max-width: 1219px;
 }
@@ -1181,6 +1193,18 @@ video {
 
 .max-w-\[479px\] {
   max-width: 479px;
+}
+
+.max-w-\[30\%\] {
+  max-width: 30%;
+}
+
+.max-w-\[40\%\] {
+  max-width: 40%;
+}
+
+.max-w-\[90\%\] {
+  max-width: 90%;
 }
 
 .flex-shrink {
@@ -3305,16 +3329,16 @@ video {
     visibility: visible;
   }
 
-  .sm\:bottom-\[12\%\] {
-    bottom: 12%;
+  .sm\:bottom-\[-5\%\] {
+    bottom: -5%;
   }
 
   .sm\:left-\[9vw\] {
     left: 9vw;
   }
 
-  .sm\:right-\[-5\%\] {
-    right: -5%;
+  .sm\:right-\[-12\%\] {
+    right: -12%;
   }
 
   .sm\:right-\[9vw\] {
@@ -3323,34 +3347,6 @@ video {
 
   .sm\:top-\[25vw\] {
     top: 25vw;
-  }
-
-  .sm\:right-\[-10\%\] {
-    right: -10%;
-  }
-
-  .sm\:bottom-\[15\%\] {
-    bottom: 15%;
-  }
-
-  .sm\:bottom-\[-15\%\] {
-    bottom: -15%;
-  }
-
-  .sm\:bottom-\[-10\%\] {
-    bottom: -10%;
-  }
-
-  .sm\:bottom-\[-5\%\] {
-    bottom: -5%;
-  }
-
-  .sm\:right-\[-15\%\] {
-    right: -15%;
-  }
-
-  .sm\:right-\[-12\%\] {
-    right: -12%;
   }
 
   .sm\:mb-\[180px\] {
@@ -3413,8 +3409,24 @@ video {
     height: 66px;
   }
 
+  .sm\:h-\[620px\] {
+    height: 620px;
+  }
+
+  .sm\:h-\[420px\] {
+    height: 420px;
+  }
+
+  .sm\:h-\[640px\] {
+    height: 640px;
+  }
+
   .sm\:max-h-\[620px\] {
     max-height: 620px;
+  }
+
+  .sm\:max-h-\[640px\] {
+    max-height: 640px;
   }
 
   .sm\:w-\[151px\] {
@@ -3481,6 +3493,10 @@ video {
     max-width: 842px;
   }
 
+  .sm\:max-w-\[30\%\] {
+    max-width: 30%;
+  }
+
   .sm\:translate-x-0 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3500,6 +3516,10 @@ video {
 
   .sm\:items-baseline {
     align-items: baseline;
+  }
+
+  .sm\:items-stretch {
+    align-items: stretch;
   }
 
   .sm\:justify-center {
@@ -3528,14 +3548,14 @@ video {
     padding-right: 36px;
   }
 
-  .sm\:py-\[10px\] {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
   .sm\:px-\[50px\] {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .sm\:py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .sm\:font-second {
@@ -3560,6 +3580,10 @@ video {
     bottom: -5%;
   }
 
+  .md\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -3568,8 +3592,48 @@ video {
     display: none;
   }
 
+  .md\:h-\[620px\] {
+    height: 620px;
+  }
+
+  .md\:max-h-\[620px\] {
+    max-height: 620px;
+  }
+
   .md\:w-\[400px\] {
     width: 400px;
+  }
+
+  .md\:max-w-\[476px\] {
+    max-width: 476px;
+  }
+
+  .md\:max-w-\[405px\] {
+    max-width: 405px;
+  }
+
+  .md\:max-w-\[379px\] {
+    max-width: 379px;
+  }
+
+  .md\:max-w-\[40\%\] {
+    max-width: 40%;
+  }
+
+  .md\:max-w-\[45\%\] {
+    max-width: 45%;
+  }
+
+  .md\:max-w-\[35\%\] {
+    max-width: 35%;
+  }
+
+  .md\:max-w-\[3555px\] {
+    max-width: 3555px;
+  }
+
+  .md\:max-w-\[50\%\] {
+    max-width: 50%;
   }
 
   .md\:flex-row {
@@ -3578,6 +3642,10 @@ video {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:items-stretch {
+    align-items: stretch;
   }
 
   .md\:justify-center {
@@ -3599,6 +3667,18 @@ video {
     bottom: -15%;
   }
 
+  .lg\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
+  .lg\:max-w-\[45\%\] {
+    max-width: 45%;
+  }
+
+  .lg\:max-w-\[50\%\] {
+    max-width: 50%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -3609,6 +3689,14 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mt-\[200px\] {
+    margin-top: 200px;
+  }
+
+  .xl\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
   .xl\:gap-\[199px\] {
     gap: 199px;
   }
