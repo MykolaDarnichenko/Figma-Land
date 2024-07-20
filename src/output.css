@@ -3351,6 +3351,10 @@ video {
     visibility: visible;
   }
 
+  .sm\:invisible {
+    visibility: hidden;
+  }
+
   .sm\:bottom-\[-5\%\] {
     bottom: -5%;
   }
@@ -3558,6 +3562,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:invisible {
+    visibility: hidden;
+  }
+
   .md\:bottom-\[-5\%\] {
     bottom: -5%;
   }

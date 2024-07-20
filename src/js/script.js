@@ -17,16 +17,3 @@ document.addEventListener('click', (e) => {
     hamburger.style.display = 'none';
   }
 })
-
-// document.addEventListener('mouseup', function (e){
-//     if (hamburger !== e.target && !hamburger.contains(e.target)) {
-//         hamburger.style.display = 'none';
-//     }
-// });
-
-// document.addEventListener('click', (e) => {
-//   e.stopImmediatePropagation();
-//   if (!hamburger.contains(e.target)) {
-//     hamburger.style.display = 'none';
-//   }
-// })
